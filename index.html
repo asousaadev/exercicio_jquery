@@ -14,6 +14,8 @@ uma lista ordenada ou não.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de tarefas</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
@@ -21,18 +23,15 @@ uma lista ordenada ou não.
         <h1>EBAC - Lista de Tarefas</h1>
     </header>
     <div class="container">
-        <form action="">
-            <input type="text" id="tarefa" required placeholder="Nome da Tarefa" />
-            <button type="submit">Cadastrar</button>
+        <form class="form-tarefa">
+            <input type="text" id="novaTarefa" required placeholder="Nome da Tarefa" />
+            <button type="submit" class="addButton">Cadastrar</button>
         </form>
         <div class="lista-tarefa">
             <ul>
-                <li>primeiro item da lista</li>
             </ul>
         </div>
     </div>
-
-
     <script src="main.js"></script>
 </body>
 
